@@ -87,20 +87,7 @@ int poweriterative(int num1, int num2)
    }
    return ans;
 }
-// int fibonaccirecursive(int num, int a, int b,int temp,int ans )
-// {
-//    if (num ==1)
-//       return ans;
-//    else
-//    {
-//       cout<<" "<<temp;
-//       temp = a + b;
-//       a = b;
-//       b = temp;
-//       ans=ans+temp;
-//       fibonaccirecursive(num-1,a,b,temp,ans);
-//    }
-// }
+
 int fibonaccirecursive(int num, int v1, int v2)
 {
    if(num==0)
